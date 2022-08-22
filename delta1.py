@@ -48,4 +48,4 @@ for ack in ack_listesi:
 for item in psh_ack_listesi:
     for ack in ack_listesi:
         if item[2]==ack[1]:
-            print(item[0],ack[0])
+            print(item[0]-ack[0])
